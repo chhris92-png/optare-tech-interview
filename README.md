@@ -3,9 +3,9 @@ This assignment is designed to understand how you work and what your preferences
 
 # 📘 Functional requirements
 
-This project lists every species of all Star Wars movies, using the following REST API https://com.optare.swapi.dev/ 
+This project lists every species of all Star Wars movies, using the following REST API https://swapi.dev/ 
 
-Your task is the following: Modify this project to list species with **planet** associated. For example:
+Your task is the following: Modify this project to list species with **planet** associated. The result expected, for example:
 
 ```json
 [
