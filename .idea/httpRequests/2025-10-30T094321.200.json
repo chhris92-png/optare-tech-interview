@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Human",
+    "classification": "mammal",
+    "designation": "sentient"
+  },
+  {
+    "name": "Droid",
+    "classification": "artificial",
+    "designation": "sentient"
+  },
+  {
+    "name": "Wookie",
+    "classification": "mammal",
+    "designation": "sentient"
+  },
+  {
+    "name": "Rodian",
+    "classification": "sentient",
+    "designation": "reptilian"
+  },
+  {
+    "name": "Hutt",
+    "classification": "gastropod",
+    "designation": "sentient"
+  },
+  {
+    "name": "Yoda's species",
+    "classification": "mammal",
+    "designation": "sentient"
+  },
+  {
+    "name": "Trandoshan",
+    "classification": "reptile",
+    "designation": "sentient"
+  },
+  {
+    "name": "Mon Calamari",
+    "classification": "amphibian",
+    "designation": "sentient"
+  },
+  {
+    "name": "Ewok",
+    "classification": "mammal",
+    "designation": "sentient"
+  },
+  {
+    "name": "Sullustan",
+    "classification": "mammal",
+    "designation": "sentient"
+  }
+]

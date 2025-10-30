@@ -1,0 +1,6 @@
+com\optare\swapi\controller\SpeciesController.class
+com\optare\swapi\model\request\Species.class
+com\optare\swapi\model\request\Planet.class
+com\optare\swapi\Main.class
+com\optare\swapi\model\response\SpeciesResponse.class
+com\optare\swapi\service\SpeciesService.class

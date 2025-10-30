@@ -26,6 +26,7 @@ public class SpeciesControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$", hasSize(greaterThan(0))))
-                .andExpect(jsonPath("$[0].planet", not(empty())));
+                .andExpect(jsonPath("$[0].homeworld").exists())
+                .andExpect(jsonPath("$[0].homeworld", not(empty())));
     }
 }
