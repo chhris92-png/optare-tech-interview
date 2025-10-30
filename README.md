@@ -30,6 +30,26 @@ Your task is the following: Modify this project to list species with **planet** 
 ]
 ```
 
+###🧠 Implementation details
+To fulfill the requirement of associating each species with its planet, the logic was moved to a dedicated service class
+
+```
+SpeciesService.java
+```
+Fetches all species from SWAPI.
+
+For each species, checks if a homeworld URL is present.
+
+If present, performs an additional API call to retrieve the planet name.
+
+Replaces the homeworld URL with the actual planet name.
+
+If no planet is found or the call fails, assigns "unknown" or "Without a planet" as fallback.
+
+Returns enriched species data to the controller.
+
+This separation of concerns improves maintainability and testability by keeping the controller free of business logic.
+
 ### 💡 Hints:
 
  * Reuse code of project
