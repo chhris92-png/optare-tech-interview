@@ -30,7 +30,7 @@ Your task is the following: Modify this project to list species with **planet** 
 ]
 ```
 
-###🧠 Implementation details
+## 🧠 Implementation details
 To fulfill the requirement of associating each species with its planet, the logic was moved to a dedicated service class
 
 ```
